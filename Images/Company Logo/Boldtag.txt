@@ -1,0 +1,27 @@
+SIT BOLD.Tag microsite:
+http://sit.boldtag.net/
+
+SIT BOLD.Tag merchant portal:
+https://sit-boldlink.azurewebsites.net/login.html
+
+Username: cwspreflat (Prepaid)
+Password: P@55word 
+Username: bdtag (Postpaid)
+Password: 4JG9+4fe
+
+SIT Console:
+https://sit.console.etracker.cc/MESDev/Login (Single User)
+User credential shares the same in boldtag
+
+http://sit.console.etracker.cc/btag/login (Multi User)
+Username: boldtag
+Password: c5)RXevM
+
+SIT esadmin for user creation
+http://sit.portal.etracker.cc/esadmin/login.aspx
+
+SIT SQL connection:
+Server name: sit-engagement-db.database.windows.net
+User ID: sitengageadmeen
+Password: Atos@2005
+Database name: sit.boldlink

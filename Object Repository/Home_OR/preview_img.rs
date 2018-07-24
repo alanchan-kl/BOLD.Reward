@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>preview_img</name>
+   <tag></tag>
+   <elementGuidId>77de48f0-0d79-480d-b60a-cb841ddf07cb</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-responsive</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-src</name>
+      <type>Main</type>
+      <value>https://bold.blob.core.windows.net:443/buffetcontainer/campaign_20180627021112.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://bold.blob.core.windows.net:443/buffetcontainer/campaign_20180627021112.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-5&quot;]/div[@class=&quot;widget&quot;]/div[@class=&quot;widget-content padding&quot;]/div[@class=&quot;notes notes-preview&quot;]/div[@class=&quot;row search-form-padding&quot;]/div[@class=&quot;col-sm-10 col-sm-offset-1&quot;]/img[@class=&quot;img-responsive&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

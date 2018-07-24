@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 Campaign - verify all case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c0730ca-2270-407e-ac89-c8f07c793e4d</testCaseGuid>
+   <variable>
+      <defaultValue>'Starbucks Reserve Ltd'</defaultValue>
+      <description></description>
+      <id>ea91b2c0-932c-496b-b763-d373f9e35bc1</id>
+      <masked>false</masked>
+      <name>companyName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Please subscribe with us and redeem a free coffee. Come join us now!'</defaultValue>
+      <description></description>
+      <id>b1f0779c-28df-4819-94f1-8fe84b40168b</id>
+      <masked>false</masked>
+      <name>campaignInstruc</name>
+   </variable>
+   <variable>
+      <defaultValue>'true'</defaultValue>
+      <description></description>
+      <id>5a3ce14d-561d-4455-ac52-786733b0dbff</id>
+      <masked>false</masked>
+      <name>radioEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'false'</defaultValue>
+      <description></description>
+      <id>b81f89d2-04aa-41dd-8a0c-9baaced5ab76</id>
+      <masked>false</masked>
+      <name>radioMobileno</name>
+   </variable>
+   <variable>
+      <defaultValue>'false'</defaultValue>
+      <description></description>
+      <id>61937bd3-3c55-499e-b03c-8a52a8d709d7</id>
+      <masked>false</masked>
+      <name>radioName</name>
+   </variable>
+   <variable>
+      <defaultValue>'false'</defaultValue>
+      <description></description>
+      <id>399dd5ea-f7f6-4434-8d2e-2e81d3bd0b4a</id>
+      <masked>false</masked>
+      <name>radioGender</name>
+   </variable>
+   <variable>
+      <defaultValue>'false'</defaultValue>
+      <description></description>
+      <id>58b08ea9-8d06-496a-ab84-8481aaea327f</id>
+      <masked>false</masked>
+      <name>radioDOB</name>
+   </variable>
+   <variable>
+      <defaultValue>'Starbucks_banner.png'</defaultValue>
+      <description></description>
+      <id>9aa7908a-89ae-4a9e-a6f3-20bd0ce37ee5</id>
+      <masked>false</masked>
+      <name>campaignImage</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://www.starbucks.com.my/'</defaultValue>
+      <description></description>
+      <id>d4361a6a-9b80-4381-a192-46db8eab9d1f</id>
+      <masked>false</masked>
+      <name>tcURL</name>
+   </variable>
+   <variable>
+      <defaultValue>'kl.chan@macrokiosk.com'</defaultValue>
+      <description></description>
+      <id>a44e77a2-830a-44b6-9e09-f2fc18dfadcb</id>
+      <masked>false</masked>
+      <name>emailSender</name>
+   </variable>
+   <variable>
+      <defaultValue>'Starbucks Reserve @ SIT'</defaultValue>
+      <description></description>
+      <id>d4fc5625-8f94-428d-aa8f-1bd33a351f3b</id>
+      <masked>false</masked>
+      <name>emailSubject</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hello User, Welcome to our Starbucks Reserve @ SIT. Come subscribe with us and redeem more rewards.'</defaultValue>
+      <description></description>
+      <id>39eb6231-d40e-4275-b3b5-8d493b463add</id>
+      <masked>false</masked>
+      <name>emailContent</name>
+   </variable>
+   <variable>
+      <defaultValue>'adidaslogo.jpg'</defaultValue>
+      <description></description>
+      <id>e8b9d8c9-ae04-4fed-9050-6eefd32db4d9</id>
+      <masked>false</masked>
+      <name>companyLogo</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>7d8f78f5-557a-4a3a-8545-e3e40d843d69</id>
+      <masked>false</masked>
+      <name>rewardCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Campaign is updated successfully.'</defaultValue>
+      <description></description>
+      <id>5c3602e2-1da3-4027-8428-662f2c24817c</id>
+      <masked>false</masked>
+      <name>msg_success_update</name>
+   </variable>
+   <variable>
+      <defaultValue>'Please complete this field.'</defaultValue>
+      <description></description>
+      <id>c9ed8c3e-deb9-4884-883f-89902ef3a46a</id>
+      <masked>false</masked>
+      <name>msgMandatory</name>
+   </variable>
+   <variable>
+      <defaultValue>'Invalid image size'</defaultValue>
+      <description></description>
+      <id>469b1905-783b-4dc3-865f-373e62fb3854</id>
+      <masked>false</masked>
+      <name>msgInvalidSize</name>
+   </variable>
+   <variable>
+      <defaultValue>'Invalid image dimension'</defaultValue>
+      <description></description>
+      <id>390360ea-2f80-4db2-a1f5-e0be8c15e3dc</id>
+      <masked>false</masked>
+      <name>msgInvalidDi</name>
+   </variable>
+   <variable>
+      <defaultValue>'Invalid file format'</defaultValue>
+      <description></description>
+      <id>6df0b4eb-cc53-4df6-b544-95b875f13fad</id>
+      <masked>false</masked>
+      <name>msgFileFormat</name>
+   </variable>
+   <variable>
+      <defaultValue>'Please select Email as it is mandatory field'</defaultValue>
+      <description></description>
+      <id>69d4cedd-46b6-4fce-86b4-e02b6d815827</id>
+      <masked>false</masked>
+      <name>msgMandatoryEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'Oops! Invalid inputs, please try again.'</defaultValue>
+      <description></description>
+      <id>fedca9ea-8d5e-488f-976b-2ae3d5643300</id>
+      <masked>false</masked>
+      <name>msgServer</name>
+   </variable>
+   <variable>
+      <defaultValue>'Invalid format, please follow as http://wwww.example.com'</defaultValue>
+      <description></description>
+      <id>1bc9c1aa-0fc4-48a3-b3bc-89247ea7e825</id>
+      <masked>false</masked>
+      <name>msgTC</name>
+   </variable>
+   <variable>
+      <defaultValue>'Invalid email address.'</defaultValue>
+      <description></description>
+      <id>e93ba66d-2571-4a14-95f4-c343ed79664d</id>
+      <masked>false</masked>
+      <name>msgInvalidEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4bc9b59a-42b2-49df-9ba7-68a1ed9835c1</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>

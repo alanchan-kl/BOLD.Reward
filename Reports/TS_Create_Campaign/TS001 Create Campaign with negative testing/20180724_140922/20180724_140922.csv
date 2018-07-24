@@ -1,0 +1,466 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS001 Create Campaign with negative testing,Chrome 67.0.3396.99,,2018-07-24 14:09:24,2018-07-24 14:22:03,12m - 39.340s,PASSED
+,,,,,,
+Test Cases/Sign Up/Package Subscribe/Module Access/subscribe_package_free,Chrome 67.0.3396.99,,2018-07-24 14:09:24,2018-07-24 14:09:51,26.480s,PASSED
+Statement - If (openBrowser == false),Chrome 67.0.3396.99,,2018-07-24 14:09:24,2018-07-24 14:09:38,13.633s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-24 14:09:38,2018-07-24 14:09:38,0.294s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-24 14:09:38,2018-07-24 14:09:40,1.603s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:09:40,2018-07-24 14:09:40,0.027s,PASSED
+"Statement - If (username.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:09:40,2018-07-24 14:09:40,0.002s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-24 14:09:40,2018-07-24 14:09:40,0.278s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-24 14:09:40,2018-07-24 14:09:40,0.161s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-24 14:09:40,2018-07-24 14:09:41,0.185s,PASSED
+setMaskedText,Chrome 67.0.3396.99,,2018-07-24 14:09:41,2018-07-24 14:09:41,0.209s,PASSED
+setMaskedText,Chrome 67.0.3396.99,,2018-07-24 14:09:41,2018-07-24 14:09:41,0.170s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-24 14:09:41,2018-07-24 14:09:41,0.183s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-24 14:09:41,2018-07-24 14:09:41,0.218s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-24 14:09:41,2018-07-24 14:09:42,0.166s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-24 14:09:42,2018-07-24 14:09:42,0.192s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-24 14:09:42,2018-07-24 14:09:42,0.193s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-24 14:09:42,2018-07-24 14:09:42,0.115s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-24 14:09:42,2018-07-24 14:09:51,8.423s,PASSED
+verifyElementText,Chrome 67.0.3396.99,,2018-07-24 14:09:51,2018-07-24 14:09:51,0.060s,PASSED
+Statement - loggedin = true,Chrome 67.0.3396.99,,2018-07-24 14:09:51,2018-07-24 14:09:51,0.001s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:09:51,2018-07-24 14:10:22,31.754s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:09:51,2018-07-24 14:09:51,0.001s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:09:51,2018-07-24 14:09:51,0.003s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:09:51,2018-07-24 14:09:51,0.003s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:09:51,2018-07-24 14:09:51,0.016s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:09:51,2018-07-24 14:09:51,0.002s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:09:51,2018-07-24 14:09:51,0.003s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:09:51,2018-07-24 14:10:07,15.568s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:10:07,2018-07-24 14:10:07,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:10:07,2018-07-24 14:10:07,0.086s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:10:07,2018-07-24 14:10:07,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:10:07,2018-07-24 14:10:10,3.070s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:10:10,2018-07-24 14:10:10,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:10:10,2018-07-24 14:10:13,3.092s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:10:13,2018-07-24 14:10:13,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:10:13,2018-07-24 14:10:22,9.123s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:10:22,2018-07-24 14:10:52,29.317s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:10:23,2018-07-24 14:10:23,0.001s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:10:23,2018-07-24 14:10:23,0.001s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:10:23,2018-07-24 14:10:23,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:10:23,2018-07-24 14:10:23,0.003s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:10:23,2018-07-24 14:10:23,0.001s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:10:23,2018-07-24 14:10:23,0.003s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:10:23,2018-07-24 14:10:37,14.152s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:10:37,2018-07-24 14:10:37,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:10:37,2018-07-24 14:10:37,0.065s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:10:37,2018-07-24 14:10:37,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:10:37,2018-07-24 14:10:40,3.062s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:10:40,2018-07-24 14:10:40,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:10:40,2018-07-24 14:10:43,3.064s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:10:43,2018-07-24 14:10:43,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:10:43,2018-07-24 14:10:52,8.819s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:10:52,2018-07-24 14:11:21,29.082s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:10:52,2018-07-24 14:10:52,0.001s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:10:52,2018-07-24 14:10:52,0.001s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:10:52,2018-07-24 14:10:52,0.000s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:10:52,2018-07-24 14:10:52,0.018s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:10:52,2018-07-24 14:10:52,0.001s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:10:52,2018-07-24 14:10:52,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:10:52,2018-07-24 14:11:06,13.655s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:11:06,2018-07-24 14:11:06,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:11:06,2018-07-24 14:11:06,0.066s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:11:06,2018-07-24 14:11:06,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:11:06,2018-07-24 14:11:09,3.073s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:11:09,2018-07-24 14:11:09,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:11:09,2018-07-24 14:11:12,3.086s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:11:12,2018-07-24 14:11:12,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:11:12,2018-07-24 14:11:21,8.967s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:11:21,2018-07-24 14:11:50,29.121s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:11:21,2018-07-24 14:11:21,0.001s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:11:21,2018-07-24 14:11:21,0.002s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:11:21,2018-07-24 14:11:21,0.000s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:11:21,2018-07-24 14:11:21,0.003s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:11:21,2018-07-24 14:11:21,0.001s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:11:21,2018-07-24 14:11:21,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:11:21,2018-07-24 14:11:35,13.782s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:11:35,2018-07-24 14:11:35,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:11:35,2018-07-24 14:11:35,0.071s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:11:35,2018-07-24 14:11:35,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:11:35,2018-07-24 14:11:38,3.061s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:11:38,2018-07-24 14:11:38,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:11:38,2018-07-24 14:11:41,3.063s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:11:41,2018-07-24 14:11:41,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:11:41,2018-07-24 14:11:50,9.027s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:11:50,2018-07-24 14:12:18,28.418s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:11:50,2018-07-24 14:11:50,0.001s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:11:50,2018-07-24 14:11:50,0.001s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:11:50,2018-07-24 14:11:50,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:11:50,2018-07-24 14:11:50,0.004s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:11:50,2018-07-24 14:11:50,0.002s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:11:50,2018-07-24 14:11:50,0.000s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:11:50,2018-07-24 14:12:03,13.179s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:12:03,2018-07-24 14:12:03,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:12:03,2018-07-24 14:12:03,0.076s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:12:03,2018-07-24 14:12:03,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:12:03,2018-07-24 14:12:06,3.064s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:12:06,2018-07-24 14:12:06,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:12:06,2018-07-24 14:12:09,3.067s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:12:09,2018-07-24 14:12:09,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:12:09,2018-07-24 14:12:18,8.904s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:12:18,2018-07-24 14:12:47,29.011s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:12:18,2018-07-24 14:12:18,0.000s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:12:18,2018-07-24 14:12:18,0.000s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:12:18,2018-07-24 14:12:18,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:12:18,2018-07-24 14:12:18,0.001s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:12:18,2018-07-24 14:12:18,0.001s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:12:18,2018-07-24 14:12:18,0.000s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:12:18,2018-07-24 14:12:32,13.043s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:12:32,2018-07-24 14:12:32,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:12:32,2018-07-24 14:12:32,0.064s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:12:32,2018-07-24 14:12:32,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:12:32,2018-07-24 14:12:35,3.083s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:12:35,2018-07-24 14:12:35,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:12:35,2018-07-24 14:12:38,3.088s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:12:38,2018-07-24 14:12:38,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:12:38,2018-07-24 14:12:47,9.586s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:12:47,2018-07-24 14:13:15,27.372s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:12:48,2018-07-24 14:12:48,0.002s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:12:48,2018-07-24 14:12:48,0.003s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:12:48,2018-07-24 14:12:48,0.002s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:12:48,2018-07-24 14:12:48,0.000s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:12:48,2018-07-24 14:12:48,0.001s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:12:48,2018-07-24 14:12:48,0.003s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:12:48,2018-07-24 14:13:02,14.086s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:13:02,2018-07-24 14:13:02,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:13:02,2018-07-24 14:13:02,0.063s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:13:02,2018-07-24 14:13:02,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:13:02,2018-07-24 14:13:05,3.074s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:13:05,2018-07-24 14:13:05,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:13:05,2018-07-24 14:13:08,3.073s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:13:08,2018-07-24 14:13:08,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:13:08,2018-07-24 14:13:15,6.826s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:13:15,2018-07-24 14:13:42,26.886s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:13:15,2018-07-24 14:13:15,0.001s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:13:15,2018-07-24 14:13:15,0.001s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:13:15,2018-07-24 14:13:15,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:13:15,2018-07-24 14:13:15,0.000s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:13:15,2018-07-24 14:13:15,0.001s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:13:15,2018-07-24 14:13:15,0.000s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:13:15,2018-07-24 14:13:29,13.743s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:13:29,2018-07-24 14:13:29,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:13:29,2018-07-24 14:13:29,0.064s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:13:29,2018-07-24 14:13:29,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:13:29,2018-07-24 14:13:32,3.065s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:13:32,2018-07-24 14:13:32,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:13:32,2018-07-24 14:13:35,3.063s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:13:35,2018-07-24 14:13:35,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:13:35,2018-07-24 14:13:42,6.831s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:13:42,2018-07-24 14:14:12,30.356s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:13:42,2018-07-24 14:13:42,0.002s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:13:42,2018-07-24 14:13:42,0.001s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:13:42,2018-07-24 14:13:42,0.000s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:13:42,2018-07-24 14:13:42,0.002s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:13:42,2018-07-24 14:13:42,0.000s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:13:42,2018-07-24 14:13:42,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:13:42,2018-07-24 14:13:57,14.971s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:13:57,2018-07-24 14:13:57,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:13:57,2018-07-24 14:13:57,0.093s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:13:57,2018-07-24 14:13:57,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:13:57,2018-07-24 14:14:00,3.084s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:14:00,2018-07-24 14:14:00,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:14:00,2018-07-24 14:14:03,3.103s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:14:03,2018-07-24 14:14:03,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:14:03,2018-07-24 14:14:12,8.981s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:14:12,2018-07-24 14:14:41,29.255s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:14:12,2018-07-24 14:14:12,0.001s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:14:12,2018-07-24 14:14:12,0.000s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:14:12,2018-07-24 14:14:12,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:14:12,2018-07-24 14:14:12,0.001s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:14:12,2018-07-24 14:14:12,0.000s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:14:12,2018-07-24 14:14:12,0.000s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:14:12,2018-07-24 14:14:26,13.982s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:14:26,2018-07-24 14:14:26,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:14:26,2018-07-24 14:14:26,0.072s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:14:26,2018-07-24 14:14:26,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:14:26,2018-07-24 14:14:29,3.072s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:14:29,2018-07-24 14:14:29,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:14:29,2018-07-24 14:14:32,3.063s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:14:32,2018-07-24 14:14:32,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:14:32,2018-07-24 14:14:41,8.886s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:14:41,2018-07-24 14:15:10,28.746s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:14:41,2018-07-24 14:14:41,0.000s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:14:41,2018-07-24 14:14:41,0.000s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:14:41,2018-07-24 14:14:41,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:14:41,2018-07-24 14:14:41,0.001s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:14:41,2018-07-24 14:14:41,0.001s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:14:41,2018-07-24 14:14:41,0.000s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:14:41,2018-07-24 14:14:55,13.380s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:14:55,2018-07-24 14:14:55,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:14:55,2018-07-24 14:14:55,0.067s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:14:55,2018-07-24 14:14:55,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:14:55,2018-07-24 14:14:58,3.072s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:14:58,2018-07-24 14:14:58,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:14:58,2018-07-24 14:15:01,3.070s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:15:01,2018-07-24 14:15:01,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:15:01,2018-07-24 14:15:10,9.047s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:15:10,2018-07-24 14:15:39,28.588s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:15:10,2018-07-24 14:15:10,0.001s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:15:10,2018-07-24 14:15:10,0.000s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:15:10,2018-07-24 14:15:10,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:15:10,2018-07-24 14:15:10,0.004s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:15:10,2018-07-24 14:15:10,0.000s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:15:10,2018-07-24 14:15:10,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:15:10,2018-07-24 14:15:23,13.390s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:15:23,2018-07-24 14:15:23,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:15:23,2018-07-24 14:15:24,0.076s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:15:24,2018-07-24 14:15:24,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:15:24,2018-07-24 14:15:27,3.066s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:15:27,2018-07-24 14:15:27,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:15:27,2018-07-24 14:15:30,3.064s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:15:30,2018-07-24 14:15:30,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:15:30,2018-07-24 14:15:39,8.874s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:15:39,2018-07-24 14:16:07,28.535s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:15:39,2018-07-24 14:15:39,0.002s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:15:39,2018-07-24 14:15:39,0.000s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:15:39,2018-07-24 14:15:39,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:15:39,2018-07-24 14:15:39,0.001s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:15:39,2018-07-24 14:15:39,0.000s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:15:39,2018-07-24 14:15:39,0.000s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:15:39,2018-07-24 14:15:52,13.143s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:15:52,2018-07-24 14:15:52,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:15:52,2018-07-24 14:15:52,0.065s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:15:52,2018-07-24 14:15:52,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:15:52,2018-07-24 14:15:55,3.061s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:15:55,2018-07-24 14:15:55,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:15:55,2018-07-24 14:15:58,3.076s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:15:58,2018-07-24 14:15:58,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:15:58,2018-07-24 14:16:07,9.083s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:16:07,2018-07-24 14:16:35,27.898s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:16:07,2018-07-24 14:16:07,0.000s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:16:07,2018-07-24 14:16:07,0.000s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:16:07,2018-07-24 14:16:07,0.000s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:16:07,2018-07-24 14:16:07,0.003s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:16:07,2018-07-24 14:16:07,0.000s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:16:07,2018-07-24 14:16:07,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:16:07,2018-07-24 14:16:22,14.435s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:16:22,2018-07-24 14:16:22,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:16:22,2018-07-24 14:16:22,0.069s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:16:22,2018-07-24 14:16:22,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:16:22,2018-07-24 14:16:25,3.076s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:16:25,2018-07-24 14:16:25,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:16:25,2018-07-24 14:16:28,3.071s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:16:28,2018-07-24 14:16:28,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:16:28,2018-07-24 14:16:35,7.136s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:16:35,2018-07-24 14:17:02,27.360s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:16:35,2018-07-24 14:16:35,0.005s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:16:35,2018-07-24 14:16:35,0.004s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:16:35,2018-07-24 14:16:35,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:16:35,2018-07-24 14:16:35,0.003s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:16:35,2018-07-24 14:16:35,0.001s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:16:35,2018-07-24 14:16:35,0.000s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:16:35,2018-07-24 14:16:49,14.310s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:16:49,2018-07-24 14:16:49,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:16:49,2018-07-24 14:16:50,0.068s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:16:50,2018-07-24 14:16:50,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:16:50,2018-07-24 14:16:53,3.080s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:16:53,2018-07-24 14:16:53,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:16:53,2018-07-24 14:16:56,3.070s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:16:56,2018-07-24 14:16:56,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:16:56,2018-07-24 14:17:02,6.716s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:17:02,2018-07-24 14:17:29,27.114s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:17:02,2018-07-24 14:17:02,0.000s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:02,2018-07-24 14:17:02,0.001s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:02,2018-07-24 14:17:03,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:03,2018-07-24 14:17:03,0.001s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:03,2018-07-24 14:17:03,0.001s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:03,2018-07-24 14:17:03,0.000s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:17:03,2018-07-24 14:17:16,13.899s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:17:16,2018-07-24 14:17:16,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:17:16,2018-07-24 14:17:16,0.058s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:17:16,2018-07-24 14:17:16,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:17:16,2018-07-24 14:17:20,3.065s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:17:20,2018-07-24 14:17:20,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:17:20,2018-07-24 14:17:23,3.061s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:17:23,2018-07-24 14:17:23,0.001s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:17:23,2018-07-24 14:17:29,6.901s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:17:29,2018-07-24 14:17:56,26.913s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:17:30,2018-07-24 14:17:30,0.001s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:30,2018-07-24 14:17:30,0.001s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:30,2018-07-24 14:17:30,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:30,2018-07-24 14:17:30,0.001s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:30,2018-07-24 14:17:30,0.000s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:30,2018-07-24 14:17:30,0.000s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:17:30,2018-07-24 14:17:43,13.844s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:17:43,2018-07-24 14:17:43,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:17:43,2018-07-24 14:17:44,0.069s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:17:44,2018-07-24 14:17:44,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:17:44,2018-07-24 14:17:47,3.064s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:17:47,2018-07-24 14:17:47,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:17:47,2018-07-24 14:17:50,3.063s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:17:50,2018-07-24 14:17:50,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:17:50,2018-07-24 14:17:56,6.759s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:17:56,2018-07-24 14:18:24,27.443s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:17:57,2018-07-24 14:17:57,0.000s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:57,2018-07-24 14:17:57,0.000s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:57,2018-07-24 14:17:57,0.000s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:57,2018-07-24 14:17:57,0.002s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:57,2018-07-24 14:17:57,0.001s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:17:57,2018-07-24 14:17:57,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:17:57,2018-07-24 14:18:11,14.231s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:18:11,2018-07-24 14:18:11,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:18:11,2018-07-24 14:18:11,0.076s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:18:11,2018-07-24 14:18:11,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:18:11,2018-07-24 14:18:14,3.063s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:18:14,2018-07-24 14:18:14,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:18:14,2018-07-24 14:18:17,3.061s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:18:17,2018-07-24 14:18:17,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:18:17,2018-07-24 14:18:24,6.900s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:18:24,2018-07-24 14:18:51,26.977s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:18:24,2018-07-24 14:18:24,0.002s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:18:24,2018-07-24 14:18:24,0.001s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:18:24,2018-07-24 14:18:24,0.000s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:18:24,2018-07-24 14:18:24,0.001s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:18:24,2018-07-24 14:18:24,0.000s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:18:24,2018-07-24 14:18:24,0.000s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:18:24,2018-07-24 14:18:38,13.876s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:18:38,2018-07-24 14:18:38,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:18:38,2018-07-24 14:18:38,0.068s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:18:38,2018-07-24 14:18:38,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:18:38,2018-07-24 14:18:41,3.084s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:18:41,2018-07-24 14:18:41,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:18:41,2018-07-24 14:18:44,3.071s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:18:44,2018-07-24 14:18:44,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:18:44,2018-07-24 14:18:51,6.758s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:18:51,2018-07-24 14:19:19,27.884s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:18:51,2018-07-24 14:18:51,0.000s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:18:51,2018-07-24 14:18:51,0.000s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:18:51,2018-07-24 14:18:51,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:18:51,2018-07-24 14:18:51,0.002s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:18:51,2018-07-24 14:18:51,0.000s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:18:51,2018-07-24 14:18:51,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:18:51,2018-07-24 14:19:05,14.485s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:19:05,2018-07-24 14:19:05,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:19:05,2018-07-24 14:19:05,0.076s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:19:05,2018-07-24 14:19:05,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:19:05,2018-07-24 14:19:09,3.092s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:19:09,2018-07-24 14:19:09,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:19:09,2018-07-24 14:19:12,3.090s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:19:12,2018-07-24 14:19:12,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:19:12,2018-07-24 14:19:19,7.041s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:19:19,2018-07-24 14:19:46,26.887s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:19:19,2018-07-24 14:19:19,0.002s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:19:19,2018-07-24 14:19:19,0.001s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:19:19,2018-07-24 14:19:19,0.002s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:19:19,2018-07-24 14:19:19,0.001s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:19:19,2018-07-24 14:19:19,0.001s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:19:19,2018-07-24 14:19:19,0.000s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:19:19,2018-07-24 14:19:33,13.855s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:19:33,2018-07-24 14:19:33,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:19:33,2018-07-24 14:19:33,0.064s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:19:33,2018-07-24 14:19:33,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:19:33,2018-07-24 14:19:36,3.073s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:19:36,2018-07-24 14:19:36,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:19:36,2018-07-24 14:19:39,3.063s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:19:39,2018-07-24 14:19:39,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:19:39,2018-07-24 14:19:46,6.690s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:19:46,2018-07-24 14:20:12,26.881s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:19:46,2018-07-24 14:19:46,0.001s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:19:46,2018-07-24 14:19:46,0.000s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:19:46,2018-07-24 14:19:46,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:19:46,2018-07-24 14:19:46,0.001s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:19:46,2018-07-24 14:19:46,0.000s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:19:46,2018-07-24 14:19:46,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:19:46,2018-07-24 14:20:00,13.833s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:20:00,2018-07-24 14:20:00,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:20:00,2018-07-24 14:20:00,0.066s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:20:00,2018-07-24 14:20:00,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:20:00,2018-07-24 14:20:03,3.076s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:20:03,2018-07-24 14:20:03,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:20:03,2018-07-24 14:20:06,3.070s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:20:06,2018-07-24 14:20:06,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:20:06,2018-07-24 14:20:12,6.746s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:20:12,2018-07-24 14:20:39,26.915s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:20:13,2018-07-24 14:20:13,0.001s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:20:13,2018-07-24 14:20:13,0.000s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:20:13,2018-07-24 14:20:13,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:20:13,2018-07-24 14:20:13,0.001s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:20:13,2018-07-24 14:20:13,0.000s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:20:13,2018-07-24 14:20:13,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:20:13,2018-07-24 14:20:26,13.860s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:20:26,2018-07-24 14:20:26,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:20:26,2018-07-24 14:20:27,0.062s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:20:27,2018-07-24 14:20:27,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:20:27,2018-07-24 14:20:30,3.062s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:20:30,2018-07-24 14:20:30,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:20:30,2018-07-24 14:20:33,3.060s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:20:33,2018-07-24 14:20:33,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:20:33,2018-07-24 14:20:39,6.778s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:20:39,2018-07-24 14:21:06,26.880s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:20:39,2018-07-24 14:20:39,0.000s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:20:39,2018-07-24 14:20:40,0.001s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:20:40,2018-07-24 14:20:40,0.000s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:20:40,2018-07-24 14:20:40,0.002s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:20:40,2018-07-24 14:20:40,0.000s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:20:40,2018-07-24 14:20:40,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:20:40,2018-07-24 14:20:53,13.854s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:20:53,2018-07-24 14:20:53,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:20:53,2018-07-24 14:20:53,0.066s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:20:53,2018-07-24 14:20:53,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:20:53,2018-07-24 14:20:56,3.070s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:20:56,2018-07-24 14:20:56,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:20:56,2018-07-24 14:21:00,3.066s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:21:00,2018-07-24 14:21:00,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:21:00,2018-07-24 14:21:06,6.726s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:21:06,2018-07-24 14:21:33,26.875s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:21:06,2018-07-24 14:21:06,0.000s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:21:06,2018-07-24 14:21:06,0.001s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:21:06,2018-07-24 14:21:06,0.000s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:21:06,2018-07-24 14:21:06,0.002s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:21:06,2018-07-24 14:21:06,0.000s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:21:06,2018-07-24 14:21:06,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:21:06,2018-07-24 14:21:20,13.777s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:21:20,2018-07-24 14:21:20,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:21:20,2018-07-24 14:21:20,0.064s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:21:20,2018-07-24 14:21:20,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:21:20,2018-07-24 14:21:23,3.078s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:21:23,2018-07-24 14:21:23,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:21:23,2018-07-24 14:21:26,3.059s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:21:26,2018-07-24 14:21:26,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:21:26,2018-07-24 14:21:33,6.806s,PASSED
+,,,,,,
+Test Cases/Merchant Portal/Campaign/TC001 Campaign - verify all case,Chrome 67.0.3396.99,,2018-07-24 14:21:33,2018-07-24 14:22:03,29.927s,PASSED
+Statement - randomWords = CustomKeywords.randomWords.GenerateNumber.randomString(4),Chrome 67.0.3396.99,,2018-07-24 14:21:33,2018-07-24 14:21:33,0.001s,PASSED
+"Statement - If (companyName.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:21:33,2018-07-24 14:21:33,0.001s,PASSED
+"Statement - If (campaignInstruc.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:21:33,2018-07-24 14:21:33,0.001s,PASSED
+"Statement - If (emailSender.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:21:33,2018-07-24 14:21:33,0.004s,PASSED
+"Statement - If (emailSubject.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:21:33,2018-07-24 14:21:33,0.001s,PASSED
+"Statement - If (emailContent.trim() != """")",Chrome 67.0.3396.99,,2018-07-24 14:21:33,2018-07-24 14:21:33,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-24 14:21:33,2018-07-24 14:21:51,17.349s,PASSED
+Statement - updateFailed = false,Chrome 67.0.3396.99,,2018-07-24 14:21:51,2018-07-24 14:21:51,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(a.Not_Assigned_OR/alert_msg_top), 3))",Chrome 67.0.3396.99,,2018-07-24 14:21:51,2018-07-24 14:21:54,3.090s,PASSED
+Statement - updateSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:21:54,2018-07-24 14:21:54,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Campaign_OR/Error Message/msg_edit_success), 3))",Chrome 67.0.3396.99,,2018-07-24 14:21:54,2018-07-24 14:21:57,3.059s,PASSED
+Statement - createSuccess = false,Chrome 67.0.3396.99,,2018-07-24 14:21:57,2018-07-24 14:21:57,0.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_OR/label_home), 3))",Chrome 67.0.3396.99,,2018-07-24 14:21:57,2018-07-24 14:21:57,0.036s,PASSED
+Statement - If (updateSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:21:57,2018-07-24 14:21:57,0.000s,PASSED
+Statement - Else If (updateFailed == true),Chrome 67.0.3396.99,,2018-07-24 14:21:57,2018-07-24 14:21:57,0.000s,PASSED
+Statement - Else If (createSuccess == true),Chrome 67.0.3396.99,,2018-07-24 14:21:57,2018-07-24 14:22:03,6.276s,PASSED

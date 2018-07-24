@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>company_name</name>
+   <tag></tag>
+   <elementGuidId>cbd7cd30-0043-4f2b-b32a-3c6ebdb493f1</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind</name>
+      <type>Main</type>
+      <value>regCampaign.CompanyName</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Starbucks Reserve Ltd</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;widescreen fixed-left ng-scope&quot;]/div[@class=&quot;content-page-full&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container basic&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1&quot;]/div[@class=&quot;notes notes-preview animated fadeInDown&quot;]/div[@class=&quot;row search-form-padding&quot;]/div[@class=&quot;col-sm-10 col-sm-offset-1&quot;]/div[@class=&quot;col-sm-10 col-sm-offset-1 text-center&quot;]/h3[1]/span[@class=&quot;ng-binding&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b.msg_subscription_stopped</name>
+   <tag></tag>
+   <elementGuidId>f4a68a7b-086f-41f0-b437-6afbf83f29ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;errorMessageRemovePayment&quot;)/p[@class=&quot;error-block&quot;][count(. | //p[(text() = 'Package subscription is stopped and credit card info is removed.' or . = 'Package subscription is stopped and credit card info is removed.')]) = count(//p[(text() = 'Package subscription is stopped and credit card info is removed.' or . = 'Package subscription is stopped and credit card info is removed.')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>error-block</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Package subscription is stopped and credit card info is removed.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;errorMessageRemovePayment&quot;)/p[@class=&quot;error-block&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Subscribe</name>
+   <tag></tag>
+   <elementGuidId>9f60bd13-430d-4fc3-9eab-6f5579aa2f31</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>modal</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-target</name>
+      <type>Main</type>
+      <value>#phoneModal</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>!readyToRegisterSubscriber()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                            Subscribe
+                                        </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;widescreen fixed-left ng-scope&quot;]/div[@class=&quot;content-page-full&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container basic&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1&quot;]/div[@class=&quot;notes notes-preview animated fadeInDown&quot;]/div[@class=&quot;row search-form-padding&quot;]/div[@class=&quot;col-sm-10 col-sm-offset-1&quot;]/div[@class=&quot;col-sm-10 col-sm-offset-1 text-center&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

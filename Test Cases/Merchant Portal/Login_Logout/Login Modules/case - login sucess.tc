@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>case - login sucess</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>817d9164-51e5-4090-bca4-a23db6a1a73e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bb7e6ad0-aea1-46cd-b9be-455b384b715e</id>
+      <masked>false</masked>
+      <name>verifyLoginUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bcb28179-fa43-4077-b8f6-c675e6ed7e4a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

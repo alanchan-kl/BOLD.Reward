@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>a.add_credit_card_info</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-05-23T14:51:56</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>f5c56dfd-b5d0-44c8-9004-4c7567c024ce</testSuiteGuid>
+   <testCaseLink>
+      <guid>fe2221db-8b7b-404e-b780-023f2e48b8f4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Merchant Portal/Login_Logout/Login Modules/access_merchant_login_URL</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>50eafaa2-5d04-4013-8811-8dd7197a6efb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Merchant Portal/Login_Logout/Login Modules/login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>49fcdc80-8574-4d9f-95f6-cc8f86d98fd1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aa839031-b432-4670-b3de-b6af569f048f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c889c884-2f8b-4e63-94f9-500f30ed6a95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Merchant Portal/Module Access/Account</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ed83fd62-a698-4fd7-98fe-d5c56b3875f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Merchant Portal/Account/Payment Details/Payment Details Modules/add_credit_card</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c269ab18-ccd8-4545-a9c6-b635a3e416d9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>379a8229-3f69-41a6-816d-4f3f7ffda18b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f5adc968-6fa4-4dac-90ba-cf958163d1f8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9a40f559-5213-45d6-9038-4280608e88d0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8e84ad83-0261-4032-8065-024957b61803</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>42dae4fb-b252-44fe-8ad3-004c03ee905c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Merchant Portal/Login_Logout/Login Modules/logout</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

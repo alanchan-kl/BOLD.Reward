@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify campaign</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34ec18b8-707e-4f11-8090-b208551dffa0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5971785d-d6c4-4a72-a964-82be4f58248b</id>
+      <masked>false</masked>
+      <name>companyName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d87bd8e0-9868-4c9c-beda-7929f632f89e</id>
+      <masked>false</masked>
+      <name>campaignInstruc</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>273e76df-3252-4201-b3b3-208a1dab8323</id>
+      <masked>false</masked>
+      <name>radioEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f925b7f3-b421-41f4-ac62-505a5476fab3</id>
+      <masked>false</masked>
+      <name>radioMobileno</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a81ac7ee-2d6e-4ab0-a373-65a0a1a3c48d</id>
+      <masked>false</masked>
+      <name>radioName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d520359d-80dc-4169-bca0-2bf60634fc17</id>
+      <masked>false</masked>
+      <name>radioGender</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7b99de30-995f-41b7-ae2b-c9d5da5d9f29</id>
+      <masked>false</masked>
+      <name>radioDOB</name>
+   </variable>
+</TestCaseEntity>

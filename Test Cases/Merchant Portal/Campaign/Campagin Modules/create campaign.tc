@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>create campaign</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c75f452-fea1-4387-b71e-0c534d9ccc9b</testCaseGuid>
+   <variable>
+      <defaultValue>'Starbucks Reserve Ltd'</defaultValue>
+      <description></description>
+      <id>2e528e8c-a2d8-44c5-8a17-2b57850478fc</id>
+      <masked>false</masked>
+      <name>companyName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Please subscribe with us and redeem a free coffee. Come join us now!'</defaultValue>
+      <description></description>
+      <id>24ded7e4-24c5-4459-b90a-3c9f8b0809ce</id>
+      <masked>false</masked>
+      <name>campaignInstruc</name>
+   </variable>
+   <variable>
+      <defaultValue>'true'</defaultValue>
+      <description></description>
+      <id>e036389b-b922-452f-b672-6e523eed0ef3</id>
+      <masked>false</masked>
+      <name>radioEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'true'</defaultValue>
+      <description></description>
+      <id>cf8d542c-6c31-4714-a59b-14ad215b09ea</id>
+      <masked>false</masked>
+      <name>radioMobileno</name>
+   </variable>
+   <variable>
+      <defaultValue>'true'</defaultValue>
+      <description></description>
+      <id>692ba72d-6414-4de6-9346-9967c4f45a88</id>
+      <masked>false</masked>
+      <name>radioName</name>
+   </variable>
+   <variable>
+      <defaultValue>'true'</defaultValue>
+      <description></description>
+      <id>a0c40bed-c1c1-4fba-91b8-66c4e95ba545</id>
+      <masked>false</masked>
+      <name>radioGender</name>
+   </variable>
+   <variable>
+      <defaultValue>'true'</defaultValue>
+      <description></description>
+      <id>d28763ff-9f35-48fb-aae9-5cc2b72d9ecf</id>
+      <masked>false</masked>
+      <name>radioDOB</name>
+   </variable>
+   <variable>
+      <defaultValue>'Baskin-Robbins-Logo.png'</defaultValue>
+      <description></description>
+      <id>35e68a41-2652-42d4-ac57-713428b8a8e8</id>
+      <masked>false</masked>
+      <name>campaignImage</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://www.starbucks.com.my/'</defaultValue>
+      <description></description>
+      <id>0dccf011-ba92-4199-a949-cfc84e1f77dd</id>
+      <masked>false</masked>
+      <name>tcURL</name>
+   </variable>
+   <variable>
+      <defaultValue>'kl.chan@macrokiosk.com'</defaultValue>
+      <description></description>
+      <id>35c77c5c-a544-4f9b-bb87-ecca10d153b4</id>
+      <masked>false</masked>
+      <name>emailSender</name>
+   </variable>
+   <variable>
+      <defaultValue>'Starbucks Reserve @ SIT'</defaultValue>
+      <description></description>
+      <id>b5e320d6-53a6-4217-9215-cd87c108bafb</id>
+      <masked>false</masked>
+      <name>emailSubject</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hello User, Welcome to our Starbucks Reserve @ SIT. Come subscribe with us and redeem more rewards.'</defaultValue>
+      <description></description>
+      <id>4e6f12bd-9836-4f8a-950d-a4320f63cdea</id>
+      <masked>false</masked>
+      <name>emailContent</name>
+   </variable>
+   <variable>
+      <defaultValue>'starbucks logo.jpg'</defaultValue>
+      <description></description>
+      <id>3dd62fe1-b2aa-4efe-a6c6-0e3ce40b06e4</id>
+      <masked>false</masked>
+      <name>companyLogo</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>cb719b33-5a68-42ad-be77-9a785f7f084e</id>
+      <masked>false</masked>
+      <name>rewardCode</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msg_radio_email</name>
+   <tag></tag>
+   <elementGuidId>66fbf65f-96bf-4051-80d2-662c9009ae74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mandatoryFields&quot;)/p[@class=&quot;error-block&quot;][count(. | //p[(text() = 'Please select Email as it is mandatory field' or . = 'Please select Email as it is mandatory field')]) = count(//p[(text() = 'Please select Email as it is mandatory field' or . = 'Please select Email as it is mandatory field')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>error-block</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please select Email as it is mandatory field</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mandatoryFields&quot;)/p[@class=&quot;error-block&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

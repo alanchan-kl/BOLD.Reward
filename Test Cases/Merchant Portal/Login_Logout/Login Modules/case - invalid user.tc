@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>case - invalid user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a1d53f0-7c13-4e7c-b6c2-96c098a19261</testCaseGuid>
+   <variable>
+      <defaultValue>'Invalid username or password'</defaultValue>
+      <description></description>
+      <id>4ce70348-496d-48ff-9493-40a0528ac05a</id>
+      <masked>false</masked>
+      <name>errorMsgInvalid</name>
+   </variable>
+   <variable>
+      <defaultValue>'Seems like you have trouble logging in. Click \'Forgot Password\' below to reset your password.'</defaultValue>
+      <description></description>
+      <id>99a92774-603d-46a5-aa97-690348cd9570</id>
+      <masked>false</masked>
+      <name>errorExceedLimit</name>
+   </variable>
+   <variable>
+      <defaultValue>'Your account has been suspended. Please contact support@boldreward.com for more information.'</defaultValue>
+      <description></description>
+      <id>6cf6aa26-6730-48f6-b9b1-07e40ee7e33d</id>
+      <masked>false</masked>
+      <name>errorMsgSuspended</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>ede42fc3-c98e-4e0d-8ca1-90042708a580</id>
+      <masked>false</masked>
+      <name>buffertime</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS002 logout</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-05-18T11:53:40</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>d8185d11-99fa-4654-829c-0b0915664248</testSuiteGuid>
+   <testCaseLink>
+      <guid>3b25a05a-1084-4263-aa3f-0004dbee567a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Merchant Portal/Login_Logout/TC001 Login - verify all case</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>19779c58-c925-46ac-a11b-aa8fb1e376c7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>72a8bdde-4721-4019-b177-39febaad3a74</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b0ac40ce-7485-43ab-b50b-77a3671c57a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e6ff24a5-6c4e-416e-a3ab-8ef25c718782</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b5be9c07-4347-4ce7-b3f0-98bf00342257</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Merchant Portal/Login_Logout/Login Modules/logout</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

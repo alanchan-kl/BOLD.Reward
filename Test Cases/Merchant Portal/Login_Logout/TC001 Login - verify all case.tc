@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 Login - verify all case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf4f2abc-4a14-4c63-a382-892098951652</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.username</defaultValue>
+      <description></description>
+      <id>19779c58-c925-46ac-a11b-aa8fb1e376c7</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.password</defaultValue>
+      <description></description>
+      <id>72a8bdde-4721-4019-b177-39febaad3a74</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b0ac40ce-7485-43ab-b50b-77a3671c57a4</id>
+      <masked>false</masked>
+      <name>expected_result</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>e6ff24a5-6c4e-416e-a3ab-8ef25c718782</id>
+      <masked>false</masked>
+      <name>buffertime</name>
+   </variable>
+</TestCaseEntity>

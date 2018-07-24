@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add_credit_card</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2c76421-6c99-4d66-8ec6-787bb85b89ca</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.ccnumber</defaultValue>
+      <description></description>
+      <id>c269ab18-ccd8-4545-a9c6-b635a3e416d9</id>
+      <masked>false</masked>
+      <name>cardNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.expiryMonth</defaultValue>
+      <description></description>
+      <id>379a8229-3f69-41a6-816d-4f3f7ffda18b</id>
+      <masked>false</masked>
+      <name>expiryMonth</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.expiryYear</defaultValue>
+      <description></description>
+      <id>f5adc968-6fa4-4dac-90ba-cf958163d1f8</id>
+      <masked>false</masked>
+      <name>expiryYear</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.cvv</defaultValue>
+      <description></description>
+      <id>9a40f559-5213-45d6-9038-4280608e88d0</id>
+      <masked>false</masked>
+      <name>cvv</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.cardholderName</defaultValue>
+      <description></description>
+      <id>8e84ad83-0261-4032-8065-024957b61803</id>
+      <masked>false</masked>
+      <name>cardholderName</name>
+   </variable>
+</TestCaseEntity>
