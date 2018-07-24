@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>ef10e0d1-5f78-459f-a742-1e73cc254c37</dataFileGUID>
-   <dataSourceUrl>C:\Users\kl.chan\Katalon Studio\boldreward\Data Files\create_campaign.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\kl.chan\Katalon Studio\boldreward\Data Files\Merchant\Campaign\create_campaign.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
